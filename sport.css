@@ -1,0 +1,7 @@
+footer ul{
+    margin-left:5px;
+    margin-top:15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}

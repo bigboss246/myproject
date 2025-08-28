@@ -1,0 +1,452 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Georgia;
+}
+
+.log{
+    font-size:2vw;
+    font-family: verdana;
+    font-weight: bold;
+    float: left;
+    margin-top:20px;
+   
+}
+
+header nav{
+    height:5vw;
+    background-color: rgb(155, 61, 61);
+    padding-top:10px;
+    width:100%;
+}
+
+nav ul{
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    margin-top:10px;
+    list-style-type: none;
+    float: right;
+    padding: 0;
+
+}
+
+nav ul li{
+    cursor: pointer;
+    color:white;
+    width:15%;
+    margin:0px 5px ;
+    float: left;
+    
+}
+
+nav ul li {
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    color: #29041e;
+
+}
+
+
+.container1{
+    max-width:100%;
+    width: 100%;
+    margin:30px 0 0 0;
+    background-color: rgb(245, 237, 228);
+   
+}
+
+.container1 h3{
+    text-align: center;
+    font-size:1.3vw;
+
+}
+
+.container1 h4{
+    color: rgb(33, 161, 220);
+    font-size:1vw;
+    text-align: center;
+}
+
+.container1 ul{
+    margin-right:10px;
+    display: flex;
+    align-content: center;
+    list-style-type:none;
+   
+   
+}
+
+.container1 li{
+    margin-right:20px;
+}
+
+
+.container1 ul img{
+    margin-left:20px;
+    max-width:100%;
+    height:25vh;
+    width:22vw;
+}
+
+.container1 img:hover{
+    color: white;
+    opacity:0.8;
+    transform:ease 0.3;
+}
+
+.container2{
+    max-width:100%;
+    width: 100%;
+    margin:30px 0 0 0;
+    background-color: rgb(245, 237, 228);
+   
+    
+}
+
+.container2 li{
+    margin-right:20px;
+}
+
+.container2 h3{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.container2 h4{
+    color: rgb(33, 161, 220);
+    font-size:1vw;
+    text-align: center;
+}
+
+.container2 ul{
+    margin-right:10px;
+    display: flex;
+    align-content: center;
+    list-style-type:none;
+
+}
+
+.container2 ul img{
+    margin-left:20px;
+    max-width:100%;
+    height:25vh;
+    width:22vw;
+
+}
+
+
+.container4{
+    max-width:100%;
+    width: 100%;
+    margin:30px 0 0 0;
+    background-color: rgb(245, 237, 228);
+   
+}
+
+.container4 li{
+    margin-right:20px;
+}
+
+.container4 h3{
+    text-align: center;
+    font-size:1.5vw;
+
+}
+
+.container4 h4{
+    color: rgb(33, 161, 220);
+    font-family: verdana;
+    font-size:1vw;
+    text-align: center;
+}
+
+.container4 ul{
+    margin-right:15px;
+    display: flex;
+    align-content: center;
+    list-style-type:none;
+   
+   
+}
+
+.container4 li{
+    max-width: 100%;
+}
+.container4 ul img{
+    margin-left:20px;
+    max-width:100%;
+    height:25vh;
+    width:22vw;
+}
+
+.container4 img:hover{
+    color: white;
+    opacity:0.8;
+    transform:ease 0.3;
+}
+
+.busi{
+    color: #f8f8f8;
+    font-size:1.5vw;
+    font-weight: bold;
+    background-color: #e9b68f;
+}
+
+h3{
+    font-size:2vw;
+}
+
+h5{
+    margin-top: 10px;
+    text-align: center;
+}
+
+body h4{
+    font-size:1.5vw;
+    font-family: arial;
+}
+
+body h4:hover{
+    color: rgb(57, 142, 239);
+    font-size: medium;
+}
+.ent{
+    color: #f8f8f8;
+    font-size:1.5vw;
+    font-weight:bold;
+    background-color: #e9b68f;
+    
+}
+
+.container3 {
+    display:flex;
+    background-color: rgb(229, 216, 200);
+    margin-top:13px;
+    border-radius:15px 15px 15px 15px;
+    width:100%;
+   
+}
+
+.othernews{
+    color: #f8f8f8;
+    font-size:1.5vw;
+    font-weight: bold;
+    background-color: #e9b68f;
+
+    
+}
+
+.container3 ul {
+    margin-right:20px;
+    margin-left:50px;
+    font-family:'Courier New', Courier;
+    padding-top:5px;
+   
+}
+
+.container3 li{
+    margin-top:5px;
+    font-size:10px;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.container3 li:hover{
+    color: rgb(46, 23, 248);
+}
+
+.onews{
+    text-align:center;
+    font-size:25px;
+    margin-top:6px;
+
+}
+
+
+footer{
+    background-color: #b1a7a7;
+    margin-top:3px;
+    color: #030202;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius:25px 25px 0 0;
+}
+
+footer ul{
+    margin-left:5px;
+    margin-top:15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+footer h2{
+    font-size:1.5vw;
+}
+
+footer li:hover{
+    cursor: pointer;
+    color:white;
+}
+
+
+
+.cat{
+    font-size:1.5vw;
+    padding-left:3px;
+    margin-top:10px;
+    margin-left:5px;
+    padding-top:5px;
+    font-style: italic;
+    font-weight:600;
+    color: White;
+}
+.companys{
+    font-size:1vw;
+
+}
+
+.companys li{
+   margin-top:5px;
+    
+}
+
+.categories{
+    margin-left: 5em;
+    font-size:1vw;
+
+}
+
+.categories li{
+    list-style:none;
+    margin-top:5px;
+    
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+#social{
+    display: flex;
+    justify-content:center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius:25%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius:25%;
+}
+
+.fa-instagram {
+  background: #e95224;
+  color: white;
+  border-radius:25%;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  border-radius:25%;
+}
+
+.copyr{
+    margin-left: 30px;
+    display: flex;
+    margin-top:50px;
+    justify-content: end;
+
+}
+
+.copy {
+    margin-left: 10px;
+    font-size:30px;
+}
+
+.copy a{
+    text-decoration:none;
+}
+.copy a:hover{
+    color:white;
+    cursor: pointer;
+}
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+/* MMEDIA QUERIES */
+@media screen and (max-width:750px) {
+
+
+   header nav {
+        clear:left;
+        float:none;
+        width:100%;
+        height:10vh;
+        background-color: rgb(234, 95, 95); 
+    }
+    header nav ul{
+        margin-top:10px;
+        width:100%;
+        float:none;
+        padding: 0;
+        font-size:2.5vw;
+    }
+    .log{
+        background-color: rgb(234, 95, 95);
+        text-align: center;
+        margin:0 auto 0;
+        float:none;
+    }
+
+     header nav ul li{
+        margin: 0 10px;
+        width:19%;
+        padding: 0;
+        text-align: center;
+     }
+     .container1{
+        margin-right:20px;
+        background-color:burlywood;
+        width:100%;
+     }
+     .container2 h4{
+       max-width: 100%;
+        text-align: center;
+     }
+    .companys li{
+        width:150%;
+    }
+    .hamburger {
+    display: block;
+  }    
+}

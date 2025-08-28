@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | NewsSite</title>
+  <link rel="stylesheet" href="contact-b.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar here -->
+     <header>
+  <nav class="navbar">
+    <div class="logo">NewsSite</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index-b.html">Home</a></li>
+      <li><a href="about-b.html">About</a></li>
+      <li><a href="entertainment.html">Entertainment</a></li>
+      <li><a href="sport.html">Sport</a></li>
+      <li><a href="politics.html">politics</a></li>
+      <li><a href="contact-b.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+</header>
+
+  <main class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="formMessage"></div>
+  </main>
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>NewsSite</h3>
+      <p>Delivering accurate and up-to-date news from around the globe.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        
+      <li><a href="index-b.html">Home</a></li>
+      <li><a href="about-b.html">About</a></li>
+      <li><a href="entertainment.html">Entertainment</a></li>
+      <li><a href="sport.html">Sport</a></li>
+      <li><a href="politics.html">politics</a></li>
+      <li><a href="contact-b.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: contact@newssite.com</p>
+      <p>Phone: +233 202071492</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 NewsSite. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
